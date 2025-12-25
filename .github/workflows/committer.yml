@@ -27,7 +27,7 @@ jobs:
         
         # Realistic schedule with some weekend activity and natural breaks
         case "$TODAY" in
-          "2025-12-25") COMMITS_TODAY=0 ;; # Holiday
+          "2025-12-25") COMMITS_TODAY=10 ;; # Holiday
           "2025-12-26") COMMITS_TODAY=3 ;;
           "2025-12-27") COMMITS_TODAY=2 ;; # Weekend with some work
           "2025-12-28") COMMITS_TODAY=0 ;;
